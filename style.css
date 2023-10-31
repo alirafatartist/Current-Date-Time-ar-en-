@@ -54,7 +54,6 @@ input[type="text"] {
   pointer-events: none;
   display: flex;
   justify-content: inherit;
-  margin-bottom: 20px;
 }
 .second {
   display: flex;
