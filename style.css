@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #0d1017;
+  transition: 0.3s ease-in-out;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+p {
+  font-size: 11px;
+  font-weight: bold;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 171px;
+  padding: 20px;
+  border: 2px solid #32363e;
+  border-radius: 7px;
+  background: #181b23;
+}
+input[type="text"] {
+  border: 2px solid #32363e;
+  font-size: 14px;
+  outline: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  width: 100%;
+  background: #181b23;
+  pointer-events: none;
+}
+.text {
+  border: 2px solid #32363e;
+  font-size: 14px;
+  outline: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  width: 100%;
+  background: #181b23;
+  pointer-events: none;
+  display: flex;
+  justify-content: inherit;
+  margin-bottom: 20px;
+}
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.second i {
+  font-size: 11px;
+  transition: 0.3s;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.div div {
+  display: flex;
+}
+span {
+  display: flex;
+  cursor: pointer;
+}
+label {
+  font-size: 10px;
+  cursor: pointer;
+}
+img {
+  margin-right: 3px;
+}
